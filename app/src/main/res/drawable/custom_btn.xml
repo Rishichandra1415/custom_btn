@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    first off all we can make a new xml file  by going to the drawable folder snd then we can mske a item attribute inside this we csn code all the thing -->
+<!--    first attribute is  SHAPE  in this we  can make the shape of whatever we can want to be shape-->
+<item>
+
+<shape android:shape="rectangle">
+<!-- and then we can use SOLID attibute  in this we can identify the colour...-->
+<solid android:color="#CDDC39"></solid>
+
+<!--    and then we can make a STROKE attribute in this we can degisn the border thimgs-->
+    <stroke android:color="#E91E63"
+        android:width="2dp"
+        android:dashGap="6dp"
+android:dashWidth="12dp">
+    </stroke>
+<!--      CORMNER attr..  is ude to ake the radius of the corner-->
+
+    <corners android:radius="20dp"></corners>
+</shape>
+
+<!--    GRADIENT attribute is also use to degin the mixing colour..-->
+
+</item>
+
+</selector>
